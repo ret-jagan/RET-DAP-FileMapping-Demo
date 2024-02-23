@@ -746,8 +746,6 @@ def lmt_mapping(input_path, sheet_entry, sheet_index, col_row_index, file_id, ve
 
         return combined_df
 
-
-
     for col_row in col_row_index:
         range=col_row['range']
         tables=col_row['tables']
